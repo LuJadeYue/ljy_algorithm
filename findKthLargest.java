@@ -25,4 +25,10 @@ public class findKthLargest {
         if (cntl >= k) return quickSelect(nums, l, j, k);
         else return quickSelect(nums, j + 1, h, k - cntl);
     }
+
+    public static void main(String[] args) {
+        findKthLargest obj = new findKthLargest();
+        System.out.println(obj.findKthLargest(new int[]{3, 2, 1, 5, 6, 4}, 2)); // 5
+        System.out.println(obj.findKthLargest(new int[]{3, 2, 3, 1, 2, 4, 5, 5, 6}, 4)); // 4
+    }
 }
