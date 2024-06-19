@@ -56,8 +56,8 @@ public class sort {
 
     public static void main(String[] args) {
         sort obj = new sort();
-        int[] arr = {2,3,5,7,2,4,8,4};
-        obj. merge_sort(arr, 0, arr.length - 1);
+        int[] arr = {2, 3, 5, 7, 2, 4, 8, 4};
+        obj.merge_sort(arr, 0, arr.length - 1);
         for (int j : arr) {
             System.out.print(j + " ");
         }
