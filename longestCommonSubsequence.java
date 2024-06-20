@@ -33,6 +33,7 @@ public class longestCommonSubsequence {
         return dp[n][n];
     }
 
+    //矩阵连乘
 
 
     public static void main(String[] args) {

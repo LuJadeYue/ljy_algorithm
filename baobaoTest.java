@@ -32,7 +32,7 @@ public class baobaoTest {
         while (j <= r) {
             temp[k++] = arr[j++];
         }
-        for (k = 0, i = l; i < r + 1; k++, i++) {
+        for (k = 0, i = l; i <= r; k++, i++) {
             arr[i] = temp[k];
         }
 
@@ -94,7 +94,6 @@ public class baobaoTest {
         }
         return l;
     }
-
 
 
 }
